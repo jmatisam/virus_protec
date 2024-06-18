@@ -9,11 +9,11 @@ app = Flask(__name__)
 
 
 # Configura tu clave de API de VirusTotal
-API_KEY = '55db50a9b3a3e55ab557ebb72d2b6afd65d54dfc4555fb11900e801d991c68af'
+API_KEY = 'Put your Api Key There'
 api = PublicApi(API_KEY)
 
 # Clave de API de OpenAI
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = 'Put your Api Key There'
 
 # Ruta para el formulario HTML
 @app.route('/')
